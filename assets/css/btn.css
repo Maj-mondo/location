@@ -1,0 +1,68 @@
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  height: 50px;
+}
+
+/* Green */
+.success {
+  border-color: #ff2851;
+  color: #ff2851;
+}
+
+.success:hover {
+  background-color:#ff2851;
+  color: #fff;
+}
+
+/* Blue */
+.info {
+  border-color: #fff;
+  color: #fff;
+}
+
+.info:hover {
+  background: #fff;
+  color: #800000;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}

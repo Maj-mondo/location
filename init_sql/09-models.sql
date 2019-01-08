@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `models` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `libelle` VARCHAR(45) NULL,
+  `type` VARCHAR(45) NULL,
+  `marque` VARCHAR(45) NULL,
+  `version` VARCHAR(45) NULL,
+  `couleur` VARCHAR(45) NULL,
+  `option_gps` INT NULL,
+  `transmission` VARCHAR(45) NULL,
+  `climatisation` INT NULL,
+  `nbr_portes` INT NULL,
+  `nbr_passages` INT NULL,
+  `age_minimum` INT NULL,
+  `accessoires` VARCHAR(255) NULL,
+  `airbag` VARCHAR(45) NULL,
+  `carburant` VARCHAR(45) NULL,
+  `kilometrage` INT NULL,
+  `siegeBebe` INT NULL,
+  `prix` INT NULL,
+  CONSTRAINT `pk_models` PRIMARY KEY (`id`))
+ENGINE = InnoDB;
