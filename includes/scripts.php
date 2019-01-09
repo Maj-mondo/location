@@ -5,7 +5,8 @@
   require_once 'PHPMailerAutoload.php';
 
   if (!empty($_POST)) {
-    $errors = array();
+    
+     $errors = array();
 
     if (empty($_POST['prenom']) || !preg_match('/^[a-zA-Z0-9_]+$/', $_POST['prenom'])) {
       $errors['prenom'] = "Votre prénom n'est pas valide";

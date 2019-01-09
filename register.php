@@ -3,7 +3,7 @@
 <?php include 'includes/scripts.php'; ?>
 <?php include 'includes/header-register.php'; ?>
 
-<div class="w3-display-container" style="height:600px;">
+<div class="w3-display-container" style="height:900px;">
   <?php if (!empty($errors)) : ?>
   <div class="alert alert-danger">
     <p>Vous n'avez pas rempli le formulaire correctement</p>
@@ -23,6 +23,31 @@
           <input type="text" placeholder="Nom" name="nom" class="form-control">
         </div>
         <div class="form-group">                
+          <input type="text" placeholder="CNI" name="cni" class="form-control">
+        </div>
+        <div class="form-group">                
+          <input type="text" placeholder="Adresse" name="adresse" class="form-control">
+        </div>
+        <div class="form-group">                
+          <input type="text" placeholder="Ville" name="ville" class="form-control">
+        </div>
+        <div class="form-group">                
+          <input type="text" placeholder="Telephone" name="tel" class="form-control">
+        </div>
+        <div class="form-group">                
+          <input type="text" placeholder="Numero permis" name="nopermis" class="form-control">
+        </div>
+        <div class="form-group">                
+          <input type="text" placeholder="Date de naissance" name="datenaiss" class="form-control">
+        </div>
+        <div class="form-group">                
+          <input class="w3-radio" type="radio" name="genre" value="homme" checked>
+            <label>Homme</label>
+
+            <input class="w3-radio" type="radio" name="genre" value="femme">
+            <label>Femme</label>
+        </div>
+        <div class="form-group">                
           <input type="email" placeholder="Email Ex: car-car@gmail.com" name="email" class="form-control" >
         </div>
         <div class="form-group">                
@@ -31,12 +56,11 @@
         <div class="form-group">                
           <input type="password" placeholder="Mot de passe" name="password" class="form-control" >
         </div>
-
         <div class="form-group">                
           <input type="password" placeholder="Confirmer mot de passe" name="password_confirm" class="form-control" >
         </div>
         <br>
-         <div class="w3-display-bottommiddle">        
+        <div class="w3-display-bottommiddle">        
           <button class="w3-button w3-block w3-padding-larg w3-xlarge w3-white w3-border w3-border-red w3-round-large"  data-text="S'inscrire" type="submit">S'inscrire</button>
         </div>
       </form>

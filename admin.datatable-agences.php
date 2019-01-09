@@ -56,13 +56,16 @@
                       <thead>
                         <tr>
                           <th>ID</th>
-                          <th>Prénoms/Nom</th>
-                          <th>Fonction</th>
-                          <th>Telephone</th>
+                          <th>Nom Agence</th>
+                          <th>Logo</th>
                           <th>Adresse</th>
-                          <th>Age</th>
-                          <th>Date embauche</th>
-                          <th>Salaire</th>
+                          <th>Ville</th>
+                          <th>Code Postal</th>
+                          <th>Téléphone</th>
+                          <th>Jour de Travail</th>
+                          <th>H Ouverture</th>
+                          <th>H Fermeture</th>
+                          <th>Carte</th>
                           <th>Action</th>
                         </tr>
                       </thead>

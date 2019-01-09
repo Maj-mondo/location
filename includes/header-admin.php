@@ -1,3 +1,6 @@
+<?php require_once 'includes/conn.php'; 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,6 +32,10 @@
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/
+jquery.min.js"></script>
   </head>
 
   <body class="nav-md">
@@ -258,3 +265,5 @@
             </div>
           </div>
           <!-- /top navigation -->
+
+          
