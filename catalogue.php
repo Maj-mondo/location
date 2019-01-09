@@ -41,12 +41,25 @@
                 <h3>Caractristiques</h3>
                 <br>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-md-3">Type</div>
+                <div class="col-md-3">Marque</div>
+                <div class="col-md-3">Version</div>
+                <div class="col-md-3">Couleur</div>
+                <br>
+                <div class="col-md-3">Transmission</div>
+                <div class="col-md-3">Climatisation</div>
+                <div class="col-md-3">OptionGPS</div>
+                <div class="col-md-3">Carburant</div>
+                <br>
+                <div class="col-md-3">Nmbre de portes</div>
+                <div class="col-md-3">Nombre de passagers</div>
+                <div class="col-md-3">Kilomètragre</div>
+                <div class="col-md-3">Carburant</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4><strong>Prix</strong></h4> 
               </div>
               <div class="col-lg-6">
                 <h3>Photo</h3>

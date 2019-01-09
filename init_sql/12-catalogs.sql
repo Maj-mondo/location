@@ -1,5 +1,0 @@
-CREATE TABLE IF NOT EXISTS `catalogs` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `annee_cat` DATETIME NULL,
-  CONSTRAINT `pk_catalogs` PRIMARY KEY (`id`))
-ENGINE = InnoDB;

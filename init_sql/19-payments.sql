@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS `payments` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  CONSTRAINT `pk_payments` PRIMARY KEY (`id`))
-ENGINE = InnoDB;

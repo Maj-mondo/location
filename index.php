@@ -49,29 +49,29 @@
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fas fa-car wc-icon"></span>
-                    <h4 class="wc-tittle">Location en libre service</h4>
-                    <p>Location en libre-service 24h/24 et partez quand vous le souhaitez.</p>
+                    <h4 class="wc-tittle">Formules</h4>
+                    <p>Chez Car-Car, nous savons que chaque client est UNIQUE. C’est pour cela que nous avons développé des offres de locations flexibles et variées, à l’image de notre clientèle.</p>
                   </div>
                 </li>
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fa fa-sellsy wc-icon"></span>
-                    <h4 class="wc-tittle">Reservation simple et rapide</h4>
-                    <p>At vero eos et accusamus et iusto odio in dignissimos ducimus voluptatum in delenatque </p>
+                    <h4 class="wc-tittle">Valeurs</h4>
+                    <p>La satisfaction et le suivi personnalisé que nous apportons à chacun de nos clients sont au cœur de nos préoccupations.</p>
                   </div>
                 </li>
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fa fa-line-chart wc-icon"></span>
-                    <h4 class="wc-tittle">Paiement sécurisé</h4>
-                    <p>At vero eos et accusamus et iusto odio in dignissimos ducimus voluptatum in delenatque </p>
+                    <h4 class="wc-tittle">Ambitions</h4>
+                    <p>Chaque voyage est une aventure qui mérite d’être vécue au maximum. Notre ambition est de faire en sorte que votre expérience soit un moment unique.</p>
                   </div>
                 </li>
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fa fa-bus wc-icon"></span>
                     <h4 class="wc-tittle">Professionnels</h4>
-                    <p>At vero eos et accusamus et iusto odio in dignissimos ducimus voluptatum in delenatque </p>
+                    <p> Nous tenons à votre confiance sans cesse renouvelée, nous apprenons de vos retours d’expérience et nous améliorons, un peu plus chaque jour.</p>
                   </div>
                 </li>
               </ul>
@@ -181,49 +181,25 @@
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-edit service-icon"></span>
-                    <h4 class="service-title">Assurance</h4>
+                    <h4 class="service-title">Strategie</h4>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-sort-amount-asc service-icon"></span>
-                    <h4 class="service-title">Strategy</h4>
+                    <h4 class="service-title">Disponibilité</h4>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                  <div class="single-service wow slideInUp">
                     <span class="fa fa-map-o service-icon"></span>
-                    <h4 class="service-title">UI Design</h4>
+                    <h4 class="service-title">Confort</h4>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-rocket service-icon"></span>
-                    <h4 class="service-title">Analystic</h4>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-car service-icon"></span>
-                    <h4 class="service-title">Usibility</h4>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-bank service-icon"></span>
-                    <h4 class="service-title">Business solution</h4>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-user-secret service-icon"></span>
-                    <h4 class="service-title">Creative concept</h4>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-support service-icon"></span>
-                    <h4 class="service-title">Support</h4>
+                    <h4 class="service-title">Assurance</h4>
                   </div>
                 </li>
               </ul>
@@ -303,7 +279,7 @@
                   <span class="fa fa-users"></span>
                   <div class="counter-count">
                     <span class="counter">1050</span>
-                    <p>Happy Clients</p>
+                    <p>Clients satisfaitd</p>
                   </div>
                 </div>
               </div>
@@ -312,7 +288,7 @@
                   <span class="fa fa-bus"></span>
                   <div class="counter-count">
                     <span class="counter">750</span>
-                    <p>Project delivery</p>
+                    <p>Locations</p>
                   </div>
                 </div>
               </div>
@@ -330,7 +306,7 @@
                   <span class="fa fa-tasks"></span>
                   <div class="counter-count">
                     <span class="counter">800</span>
-                    <p>Project done</p>
+                    <p>Reservations</p>
                   </div>
                 </div>
               </div>    
