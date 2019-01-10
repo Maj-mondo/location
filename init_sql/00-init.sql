@@ -1,4 +1,6 @@
 CREATE DATABASE `db_location` DEFAULT CHARACTER SET utf8 ;
+create user "location"@"localhost" identified with mysql_native_password by "location";
+grant all privileges on db_location.* to "location"@"localhost";
 USE `db_location` ;
 
 -- cette ordre de création de la base de données s'appelle migration

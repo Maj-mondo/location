@@ -16,7 +16,8 @@ body {
   background-image: url("/assets/images/logo.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-color: #cccccc;
+  background-color: #f72069;
+  opacity: .75;
 }
 
 #back {
@@ -39,7 +40,6 @@ body {
   width: 200%;
   height: 100%;
   position: relative;
-  left: 0;
   left: -100%;
 }
 

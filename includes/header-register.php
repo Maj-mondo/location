@@ -14,11 +14,11 @@
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- Slick slider -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
     <!-- Fancybox slider -->
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
     <!-- Animate css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>
      <!-- Theme color -->
     <link id="switcher" href="assets/css/theme-color/pink-theme.css" rel="stylesheet">
 
@@ -65,7 +65,7 @@
 
   <!-- Start menu section -->
   <section id="menu-area">
-    <nav class="navbar navbar-default main-navbar" role="navigation">  
+    <nav class="navbar navbar-default main-navbar" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
@@ -75,18 +75,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- LOGO --> 
-           <a class="navbar-brand logo" href="index.php"><img src="assets/images/logo.png" alt="logo"></a>                      
+          <!-- LOGO -->
+           <a class="navbar-brand logo" href="index.php"><img src="assets/images/logo.png" alt="logo"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
-            <li><a href="index.php">Home</a></li>                   
+            <li><a href="index.php">Home</a></li>
             <li><a href="blog.php">BLOG </a></li>
             <li class="active"><a href="register.php">REGISTER </a></li>
-          </ul>                            
-        </div>        
-      </div>          
-    </nav> 
+          </ul>
+        </div>
+      </div>
+    </nav>
   </section>
   <!-- End menu section -->
   <!-- Start blog banner section -->
@@ -99,7 +99,7 @@
             <div class="blog-banner-area">
               <h2>Créer un compte client!</h2>
               <ol class="breadcrumb">
-                <li><a href="index.php">Home</a></li>                
+                <li><a href="index.php">Home</a></li>
                 <li class="active">Création de compte</li>
               </ol>
             </div>
@@ -120,13 +120,13 @@
               <div class="col-lg-8 col-md-7 col-sm-12">
                 <div class="blog-left blog-details">
                   <!-- Start single blog post -->
-                  <article class="single-from-blog">                    
+                  <article class="single-from-blog">
                     <div class="blog-title">
                       <h2>Remplir le formulaire</h2>
                       <p>Notre plateforme répond à une politique de confidentialité <a href="login.php" class="blog-admin">Connecter</a> on <span class="blog-date">vous ensuite pour accéder à voter compte</span></p>
                     </div>
-                    <figure>
-                      <p style="text-align: center;font-size: 30px"> <span class="glyphicon glyphicon-user"></span></p>
-                    </figure>
+                    <div style="width: 100px; margin: 0 auto;">
+                      <img src="assets/images/logo.png" alt="logo" width="85px" height="100px">
+                    </div>
                   </article>
-                  <div class="blog-comment">                    
+                  <div class="blog-comment">
