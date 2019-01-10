@@ -25,19 +25,15 @@
                 <form action="reserver.php" method="post">
                   <div class="w3-padding w3-display-left">
                       <label>Choisissez votre agence</label>
-                      <input class="w3-input w3-border" type="text" placeholder="Entrer u0en agence">
-                    </div>
-                    <div class="w3-padding w3-display-right">
-                      <label class="w3-left">Départ</label>
-                      <input class="w3-input w3-border" type="text" placeholder="Départ">
-                      <br>
-                      <input class="w3-input w3-border" type="time" name="depart">
+                      <input class="w3-input w3-border" type="text" name="nom" placeholder="Entrer une agence">
                     </div>
                     <div class="w3-padding w3-display-middle">
+                      <label class="w3-left">Départ</label>
+                      <input class="w3-input w3-border" type="datetime-local" name="debut" placeholder="depart">
+                    </div>
+                    <div class="w3-padding w3-display-right">
                       <label class="w3-left">Arrivée</label>
-                      <input class="w3-input w3-border" type="text" placeholder="Arrivée">
-                      <br>
-                      <input class="w3-input w3-border" type="time" name="arrivee">
+                      <input class="w3-input w3-border" type="datetime-local" name="fin" placeholder="arrivée">                      
                     </div>
                     <br>
                     <div class="w3-padding w3-display-bottommiddle">                  
@@ -53,29 +49,29 @@
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fas fa-car wc-icon"></span>
-                    <h4 class="wc-tittle">Location en libre service</h4>
-                    <p>Location en libre-service 24h/24 et partez quand vous le souhaitez.</p>
+                    <h4 class="wc-tittle">Formules</h4>
+                    <p>Chez Car-Car, nous savons que chaque client est UNIQUE. C’est pour cela que nous avons développé des offres de locations flexibles et variées, à l’image de notre clientèle.</p>
                   </div>
                 </li>
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fa fa-sellsy wc-icon"></span>
-                    <h4 class="wc-tittle">Reservation simple et rapide</h4>
-                    <p>At vero eos et accusamus et iusto odio in dignissimos ducimus voluptatum in delenatque </p>
+                    <h4 class="wc-tittle">Valeurs</h4>
+                    <p>La satisfaction et le suivi personnalisé que nous apportons à chacun de nos clients sont au cœur de nos préoccupations.</p>
                   </div>
                 </li>
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fa fa-line-chart wc-icon"></span>
-                    <h4 class="wc-tittle">Paiement sécurisé</h4>
-                    <p>At vero eos et accusamus et iusto odio in dignissimos ducimus voluptatum in delenatque </p>
+                    <h4 class="wc-tittle">Ambitions</h4>
+                    <p>Chaque voyage est une aventure qui mérite d’être vécue au maximum. Notre ambition est de faire en sorte que votre expérience soit un moment unique.</p>
                   </div>
                 </li>
                 <li>
                   <div class="single-wc-content wow fadeInUp">
                     <span class="fa fa-bus wc-icon"></span>
                     <h4 class="wc-tittle">Professionnels</h4>
-                    <p>At vero eos et accusamus et iusto odio in dignissimos ducimus voluptatum in delenatque </p>
+                    <p> Nous tenons à votre confiance sans cesse renouvelée, nous apprenons de vos retours d’expérience et nous améliorons, un peu plus chaque jour.</p>
                   </div>
                 </li>
               </ul>
@@ -128,7 +124,6 @@
       <div class="container">
         <div class="call-to-content wow fadeInUp">
           <h2>Nous mettons à votre disposition un <span color="#ff2851">Chauffeur</span>  professionel</h2>
-          <a href="#" class="button button-default" data-text="EN SAVOIR PLUS !"><span>EN SAVOIR PLUS !</span></a>
         </div>
       </div>
     </div> 
@@ -144,7 +139,7 @@
             <div class="title-area">
               <h2 class="tittle">Nos Agences</h2>
               <span class="tittle-line"></span>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+              <p>Quelques agences répartis sur l'ensemble du territoire.</p>
             </div>
             <!-- Start team content -->
             <div class="team-content">
@@ -152,61 +147,11 @@
                 <li>
                   <div class="team-item team-img-1 wow fadeInUp">
                     <div class="team-info">
-                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a>
+                      <p>Adresse</p>
                     </div>
                   </div>
                   <div class="team-address">
-                    <p>John Richerd</p>
-                    <span>CEO & Founder</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="team-item team-img-2 wow fadeInUp">
-                    <div class="team-info">
-                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a>
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>MIKE BATTON</p>
-                    <span>Co-founder</span>                  
-                  </div>
-                </li>
-                <li>
-                  <div class="team-item team-img-3 wow fadeInUp">
-                    <div class="team-info">
-                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a>
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>JOHN VICK</p>
-                    <span>Developer</span>
-                  </div>
-                </li>
-                  <li>
-                  <div class="team-item team-img-4 wow fadeInUp">
-                    <div class="team-info">
-                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a>
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>ROB HANSOM</p>
-                    <span>Senior designer</span>
+                    <p>Nom de l'agence</p>
                   </div>
                 </li>
               </ul>
@@ -236,57 +181,25 @@
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-edit service-icon"></span>
-                    <h4 class="service-title">UX Design</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    <h4 class="service-title">Strategie</h4>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-sort-amount-asc service-icon"></span>
-                    <h4 class="service-title">Strategy</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    <h4 class="service-title">Disponibilité</h4>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                  <div class="single-service wow slideInUp">
                     <span class="fa fa-map-o service-icon"></span>
-                    <h4 class="service-title">UI Design</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    <h4 class="service-title">Confort</h4>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-rocket service-icon"></span>
-                    <h4 class="service-title">Analystic</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-car service-icon"></span>
-                    <h4 class="service-title">Usibility</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-bank service-icon"></span>
-                    <h4 class="service-title">Business solution</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-user-secret service-icon"></span>
-                    <h4 class="service-title">Creative concept</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-support service-icon"></span>
-                    <h4 class="service-title">Support</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    <h4 class="service-title">Assurance</h4>
                   </div>
                 </li>
               </ul>
@@ -317,21 +230,25 @@
                 <div class="testimonial-slider">
                   <!-- single slide -->
                   <div class="single-slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat. Duis aute irure d olor in reprehenderit</p>
-                    <div class="single-testimonial">
-                      <img class="testimonial-thumb" src="assets/images/testimonial-image1.png" alt="img">
-                      <p>Jonna Hike</p>
-                      <span>CEO, Themeforest</span>
+                    <p>Nom de la voiture</p>
+                    <a href="catalogue.php">
+                      <div class="single-testimonial">
+                      <img class="testimonial-thumb" src="assets/images/acc2.jpg" alt="img" style="width: 250px;height: 250px">
+                      <p>Nom voiture</p>
+                      <span>Catégorie</span>
                     </div>
+                    </a>
                   </div>
                   <!-- single slide -->
                   <div class="single-slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat. Duis aute irure d olor in reprehenderit</p>
-                    <div class="single-testimonial">
-                      <img class="testimonial-thumb" src="assets/images/team-member2.png" alt="img">
-                      <p>Jonna Hike</p>
-                      <span>CEO, Themeforest</span>
+                    <p>Nom de la voiture</p>
+                    <a href="catalogue.php">
+                      <div class="single-testimonial">
+                      <img class="testimonial-thumb" src="assets/images/acc2.jpg" alt="img" style="width: 250px;height: 250px">
+                      <p>Nom voiture</p>
+                      <span>Catégorie</span>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -344,155 +261,7 @@
   <!-- End Testimonial section -->
   <!-- Start Portfolio section -->
   <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="portfolio-area">
-            <div class="title-area">
-              <h2 class="tittle">Nos modéles de vehicule</h2>
-              <span class="tittle-line"></span>
-              <p>Choisissez la voiture que vous voulez louer en fonction du modéle</p>
-            </div>
-            <!-- Portfolio content -->
-            <div class="portfolio-content">
-                <!-- portfolio menu -->
-               <div class="portfolio-menu">
-                 <ul>
-                   <li class="filter" data-filter="all">Tous les modèles</li>
-                   <li class="filter" data-filter=".branding">Berline</li>
-                   <li class="filter" data-filter=".design">Design</li>
-                   <li class="filter" data-filter=".development">Development</li>
-                   <li class="filter" data-filter=".photography">Photography</li>
-                 </ul>
-               </div>
-               <!-- Portfolio container -->
-               <div id="mixit-container" class="portfolio-container">
-                 <div class="single-portfolio mix branding">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small1.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big1.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix design">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big2.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix development">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small3.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big3.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small4.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big4.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small5.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big5.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small6.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big6.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small7.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big7.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big2.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-               </div>      
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <br>
   </section>
   <!-- End Portfolio section -->
 
@@ -510,7 +279,7 @@
                   <span class="fa fa-users"></span>
                   <div class="counter-count">
                     <span class="counter">1050</span>
-                    <p>Happy Clients</p>
+                    <p>Clients satisfaitd</p>
                   </div>
                 </div>
               </div>
@@ -519,7 +288,7 @@
                   <span class="fa fa-bus"></span>
                   <div class="counter-count">
                     <span class="counter">750</span>
-                    <p>Project delivery</p>
+                    <p>Locations</p>
                   </div>
                 </div>
               </div>
@@ -537,7 +306,7 @@
                   <span class="fa fa-tasks"></span>
                   <div class="counter-count">
                     <span class="counter">800</span>
-                    <p>Project done</p>
+                    <p>Reservations</p>
                   </div>
                 </div>
               </div>    
@@ -553,74 +322,7 @@
 
 
   <!-- Start from blog section -->
-  <section id="from-blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="from-blog-area">
-            <div class="title-area">
-              <h2 class="tittle">Blog</h2>
-              <span class="tittle-line"></span>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est</p>
-            </div>
-            <!-- From Blog content -->
-            <div class="from-blog-content">
-              <div class="row">
-                <div class="col-md-4">
-                  <article class="single-from-blog">
-                    <figure>
-                      <a href="blog.php"><img src="assets/images/the-sky.jpg" alt="img"></a>
-                    </figure>
-                    <div class="blog-title">
-                      <h2><a href="blog.php">Here is the post title</a></h2>
-                      <p>Posted by <a class="blog-admin" href="#">admin</a> on <span class="blog-date">23rd july 2015</span></p>
-                    </div>
-                    <p>Sed ut perspiciatis unde mnis is te natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis </p>
-                    <div class="blog-footer">
-                      <a href="#"><span class="fa fa-comment"></span>18 Comments</a>
-                      <a href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-4">
-                  <article class="single-from-blog">
-                    <figure>
-                      <a href="blog.php"><img src="assets/images/photographer.jpg" alt="img"></a>
-                    </figure>
-                    <div class="blog-title">
-                      <h2><a href="blog.php">Here is the post title</a></h2>
-                      <p>Posted by <a class="blog-admin" href="#">admin</a> on <span class="blog-date">23rd july 2015</span></p>
-                    </div>
-                    <p>Sed ut perspiciatis unde mnis is te natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis </p>
-                    <div class="blog-footer">
-                      <a href="#"><span class="fa fa-comment"></span>18 Comments</a>
-                      <a href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-4">
-                  <article class="single-from-blog">
-                    <figure>
-                      <a href="blog.php"><img src="assets/images/sealand.jpg" alt="img"></a>
-                    </figure>
-                    <div class="blog-title">
-                      <h2><a href="blog.php">Here is the post title</a></h2>
-                      <p>Posted by <a class="blog-admin" href="#">admin</a> on <span class="blog-date">23rd july 2015</span></p>
-                    </div>
-                    <p>Sed ut perspiciatis unde mnis is te natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis </p>
-                    <div class="blog-footer">
-                      <a href="#"><span class="fa fa-comment"></span>18 Comments</a>
-                      <a href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
-                    </div>
-                  </article>
-                </div>
-              </div>    
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   <!-- End from blog section -->
 
   <!-- Our partners -->
@@ -683,15 +385,15 @@
             <h2>Envoyer un messagee</h2>
             <form action="" class="contact-form">
               <div class="form-group">                
-                <input type="text" class="form-control" placeholder="Entrer nom">
+                <input type="text" class="form-control" name="name-sender" placeholder="Entrer nom">
               </div>
               <div class="form-group">                
-                <input type="email" class="form-control" placeholder="Entrer e-mail">
+                <input type="email" class="form-control" name="email-sender" placeholder="Entrer e-mail">
               </div>              
               <div class="form-group">
                 <textarea class="form-control"></textarea>
               </div>
-              <button type="submit" data-text="Envoyer" class="button button-default"><span>Envoyer</span></button>
+              <button type="submit" data-text="Envoyer" name="message" class="button button-default"><span>Envoyer</span></button>
             </form>
           </div>
         </div>
@@ -707,7 +409,7 @@
     <div class="title-area">
       <h2 class="tittle">Toutes les agences de location de voiture au Sénégal</h2>
       <span class="tittle-line"></span>
-      <p>Nous avons répertorié pour vous l'ensemble des agences suceptibles de ous satisfaire dans Dakar et dans les rgions.</p>
+      <p>Nous avons répertorié pour vous l'ensemble des agences suceptibles de ous satisfaire dans Dakar et dans les régions.</p><br>
     </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d494187.56441498117!2d-17.53610498287854!3d14.608169041501057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sagence+de+location+de+voiture+au+senegal!5e0!3m2!1sfr!2ssn!4v1544441319159"  width="100%" height="500" frameborder="0" style="border:0" allowfullscreen>
       </iframe>

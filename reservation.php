@@ -222,8 +222,8 @@
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(assets/images/blog_1.jpg)"></div>
-							<div class="blog_text">Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada.</div>
-							<div class="blog_button"><a href="blog-single.php">Continue Reading</a></div>
+							<div class="blog_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+							<div class="blog_button"><a href="blog-single.php">Annuler la reservation</a></div>
 						</div>
 
 					

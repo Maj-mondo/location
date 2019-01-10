@@ -65,8 +65,8 @@
             <div class="top_bar_content ml-auto">
               <div class="top_bar_user">
                 <div class="user_icon"></div>
-                <div><a href="#"><i class="glyphicon glyphicon-cog"></i> Paramètres du compte</a></div>
-                <div><a href="index.php"><i class="glyphicon glyphicon-log-out"></i> Log out</a></div>
+                
+                <div><a href="index.php"><i class="glyphicon glyphicon-log-out"></i>Déconnexion</a></div>
               </div>
             </div>
           </div>
@@ -198,9 +198,6 @@
                   </li>
                  <li>
                     <a href="agences.php">Agences<i class="fas fa-chevron-down"></i></a>
-                  </li>
-                  <li>
-                    <a href="shop.php">Shop<i class="fas fa-chevron-down"></i></a>
                   </li>
                   <li><a href="blog-cli.php">Blog<i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="contact.php">Contact<i class="fas fa-chevron-down"></i></a></li>

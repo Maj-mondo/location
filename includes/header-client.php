@@ -151,14 +151,14 @@
                   <div class="cat_burger"><span></span><span></span><span></span></div>
                   <div class="cat_menu_text">categories</div>
                 </div>
-                <ul class="cat_menu">
-                  <li><a href="#">Cameras & Photos<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Hardware<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Smartphones & Tablets<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">TV & Audio<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Gadgets<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Car Electronics<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Video Games & Consoles<i class="fas fa-chevron-right"></i></a></li>
+                <ul class="cat_menu" style="text-align: center;">
+                  <li><a href="#">Citadines<i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">Berlines<i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">SUV<i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">Monospace<i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">Ludospace<i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">Coupé<i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">Cabriolet<i class="fas fa-chevron-right"></i></a></li>
                   <li><a href="#">Accessories<i class="fas fa-chevron-right"></i></a></li>
                 </ul>
               </div>
@@ -171,12 +171,12 @@
                     <li class="hassubs">
                     <a href="#">Mes transactions<i class="fas fa-chevron-down"></i></a>
                     <ul>
-                      <li>
-                        <a href="Location.php">Locations<i class="fas fa-chevron-down"></i></a>
-                      </li>
-                      <li><a href="reservation.php">Réservations<i class="fas fa-chevron-down"></i></a></li>
                       <li><a href="achat.php">Acheter un vehicule<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="vente.php">Vendre un vehicule<i class="fas fa-chevron-down"></i></a></li>
+                      <li>
+                        <a href="Location.php">Mes locations<i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li><a href="reservation.php">Mes réservations<i class="fas fa-chevron-down"></i></a></li>
+                      
                     </ul>
                   </li>
                   <li>
@@ -186,9 +186,6 @@
                   </li>
                  <li>
                     <a href="agences.php">Agences<i class="fas fa-chevron-down"></i></a>
-                  </li>
-                  <li>
-                    <a href="shop.php">Shop<i class="fas fa-chevron-down"></i></a>
                   </li>
                   <li><a href="blog-cli.php">Blog<i class="fas fa-chevron-down"></i></a></li>
                   <li><a href="contact.php">Contact<i class="fas fa-chevron-down"></i></a></li>

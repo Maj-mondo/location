@@ -7,7 +7,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Ajouter une agence</h3>
+                <h3>Modifier une agence</h3>
               </div>
 
             </div>
@@ -48,17 +48,12 @@
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Tel 1</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Tel</label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <input type="text" class="form-control" placeholder="Ex : +221 77 000 00 00">
                         </div>
                       </div>
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Tel 2</label>
-                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input type="text" class="form-control" placeholder="Ex : +221 77 000 00 00">
-                        </div>
-                      </div>
+                     
                       
                       <div class="ln_solid"></div>
                       <div class="form-group">

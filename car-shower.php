@@ -53,10 +53,10 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">
+      <a class="navbar-brand" href="client.php">
         <img class="logo" alt="Brand" src="assets/images/logo.png">
       </a>
-      <p class="navbar-text navbar-right"><i class="glyphicon glyphicon-arrow-left"></i> Retourner à la flotte<a href="index.php" class="navbar-link">Car-Car</a></p>
+      <p class="navbar-text navbar-right"><i class="glyphicon glyphicon-arrow-left"></i> Aller voir la flotte<a href="vehicules.php" class="navbar-link">Car-Car</a></p>
     </div>
   </div>
 </nav>
@@ -70,24 +70,17 @@
 			<div class="row">
 
 				<!-- images -->
-				<div class="col-lg-2 order-lg-1 order-2">
-					<ul class="image_list">
-						<li data-image="assets/images/single_4.jpg"><img src="assets/images/single_4.jpg" alt=""></li>
-						<li data-image="assets/images/single_2.jpg"><img src="assets/images/single_2.jpg" alt=""></li>
-						<li data-image="assets/images/single_3.jpg"><img src="assets/images/single_3.jpg" alt=""></li>
-					</ul>
-				</div>
-
+			
 				<!-- Selected Image -->
 				<div class="col-lg-5 order-lg-2 order-1">
-					<div class="image_selected"><img src="assets/images/single_4.jpg" alt=""></div>
+					<div class="image_selected"><img src="assets/images/acc2.jpg" alt=""></div>
 				</div>
 
 				<!-- Description -->
 				<div class="col-lg-5 order-3">
 					<div class="product_description">
-						<div class="product_category">Laptops</div>
-						<div class="product_name">MacBook Air 13</div>
+						<div class="product_category">Categorie</div>
+						<div class="product_name">Nom</div>
 						<div class="rating_r rating_r_4 product_rating"><i></i><i></i><i></i><i></i><i></i></div>
 						<div class="product_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum. laoreet turpis, nec sollicitudin dolor cursus at. Maecenas aliquet, dolor a faucibus efficitur, nisi tellus cursus urna, eget dictum lacus turpis.</p></div>
 						<div class="order_info d-flex flex-row">
@@ -96,7 +89,7 @@
 
 									<!-- Product Quantity -->
 									<div class="product_quantity clearfix">
-										<span>Quantity: </span>
+										<span>Quantité: </span>
 										<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
 										<div class="quantity_buttons">
 											<div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
@@ -104,24 +97,11 @@
 										</div>
 									</div>
 
-									<!-- Product Color -->
-									<ul class="product_color">
-										<li>
-											<span>Color: </span>
-											<div class="color_mark_container"><div id="selected_color" class="color_mark"></div></div>
-											<div class="color_dropdown_button"><i class="fas fa-chevron-down"></i></div>
-
-											<ul class="color_list">
-												<li><div class="color_mark" style="background: #999999;"></div></li>
-												<li><div class="color_mark" style="background: #b19c83;"></div></li>
-												<li><div class="color_mark" style="background: #000000;"></div></li>
-											</ul>
-										</li>
-									</ul>
+									
 
 								</div>
 
-								<div class="product_price">$2000</div>
+								<div class="product_price">200000000000</div>
 								<div class="button_container">
 									<button type="button" class="button cart_button">Acheter</button>
 									<button type="button" class="button cart_button">Ajouter à la reservation</button>

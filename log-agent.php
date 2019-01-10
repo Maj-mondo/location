@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Espace Agence | </title>
+    <title>Espace Agence | Car-Car</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,6 @@
 
   <body class="login">
     <div>
-      <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
 
       <div class="login_wrapper">
@@ -37,28 +36,26 @@
             <form>
               <h1>Espace Agence</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Nom d'utilisateur" required="" />
+                <input type="text" class="form-control" name="login" placeholder="Nom d'utilisateur" required="" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" class="form-control" name="password" placeholder="Mot de passe" required="" />
               </div>
               <div>
                 <a class="btn btn-default submit" href="index-agent.php">Connexion</a>
-                <a class="reset_pass" href="#">Lost your password?</a>
+                <a class="reset_pass" href="#">Mot de passe oublié?</a>
               </div>
 
               <div class="clearfix"></div>
 
               <div class="separator">
-                <p class="change_link">New to site?
-                  <a href="#signup" class="to_register"> Create Account </a>
-                </p>
+               
 
                 <div class="clearfix"></div>
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-user"></i> Maj !</h1>
+                  <h1><i class="fa fa-car"></i><a href="index.php" style="font-size: 27px"> Car -Car</a></h1>
                   <p>©2016 All Rights Reserved. Privacy and Terms</p>
                 </div>
               </div>
@@ -66,43 +63,7 @@
           </section>
         </div>
 
-        <div id="register" class="animate form registration_form">
-          <section class="login_content">
-            <form>
-              <h1>Créer un compte d'agent</h1>
-              <div>
-                <input type="text" class="form-control" placeholder="Nom d'utilisateur" required="" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Email" required="" />
-              </div>
-              <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
-              </div>
-              <div>
-                <a class="btn btn-default submit" href="log-agent-activation.php">Créer le compte</a>
-              </div>
-
-              <div class="clearfix"></div>
-              <br>
-              <div class="alert alert-warning" style="font-size: 15px;margin: auto;width: 100%;border: 3px solid #73879C;background: #2A3F54;padding: 10px;">
-                <strong>Alert!</strong> Nous vous envoyons un e-mail pour la confirmation de votre inscription.
-              </div>
-
-
-              <div class="separator">
-                <p class="change_link">Déjà membre ?
-                  <a href="#signin" class="to_register"> Log in </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <h1><i class="fa fa-paw"></i> Maj !</h1>
-                  <p>©2018 All Rights Reserved. Privacy and Terms</p>
-                </div>
-              </div>
+        
             </form>
           </section>
         </div>
