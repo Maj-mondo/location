@@ -123,12 +123,6 @@ if (!empty($_POST)) {
     <!-- End Sidebar Single widget -->
   </aside>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 <!-- End blog section -->
 
 <!-- Start Footer -->
