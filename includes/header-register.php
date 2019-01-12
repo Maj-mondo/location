@@ -89,44 +89,4 @@
     </nav>
   </section>
   <!-- End menu section -->
-  <!-- Start blog banner section -->
-  <section id="blog-banner">
-    <img src="assets/images/blog-banner.jpg" alt="img">
-    <div class="blog-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="blog-banner-area">
-              <h2>Créer un compte client!</h2>
-              <ol class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li class="active">Création de compte</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End blog banner section -->
 
-  <!-- Start blog section -->
-  <section id="blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="blog-area">
-            <div class="row">
-              <div class="col-lg-8 col-md-7 col-sm-12">
-                <div class="blog-left blog-details">
-                  <!-- Start single blog post -->
-                  <article class="single-from-blog">
-                    <div class="blog-title">
-                      <h2>Remplir le formulaire</h2>
-                      <p>Notre plateforme répond à une politique de confidentialité <a href="login.php" class="blog-admin">Connecter</a> on <span class="blog-date">vous ensuite pour accéder à voter compte</span></p>
-                    </div>
-                    <div style="width: 100px; margin: 0 auto;">
-                      <img src="assets/images/logo.png" alt="logo" width="85px" height="100px">
-                    </div>
-                  </article>
-                  <div class="blog-comment">

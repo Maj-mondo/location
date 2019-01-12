@@ -1,5 +1,4 @@
-<?php require_once 'includes/conn.php'; 
-?>
+<?php require_once 'conn.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -88,7 +87,6 @@ jquery.min.js"></script>
                         <li><a href="admin.datatable-cars.php">Liste des vehicules</a></li>
                         <li><a href="admin.gallery-cars.php">Galerie de vehicules</a></li>
                         <li><a href="admin.datatable-etat-parc.php">Etat du parc</a></li>
-                        <li><a href="admin.datatable-disponibilites.php">Liste des disponibilités</a></li>
                       </ul>
                     </li>
                     <li><a><i class="fa fa-briefcase"></i> Personnels <span class="fa fa-chevron-down"></span></a>

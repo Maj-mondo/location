@@ -202,74 +202,6 @@
     </div>
   </div>
 
-  <!-- Popular Categories -->
-
-  <div class="popular_categories">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="popular_categories_content">
-            <div class="popular_categories_title">Nos types de véhicules</div>
-            <div class="popular_categories_slider_nav">
-              <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
-              <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
-            </div>
-            <div class="popular_categories_link"><a href="shop.php">Voir tout le catalogue</a></div>
-          </div>
-        </div>
-        
-        <!-- Popular Categories Slider -->
-
-        <div class="col-lg-9">
-          <div class="popular_categories_slider_container">
-            <div class="owl-carousel owl-theme popular_categories_slider">
-
-              <!-- Popular Categories Item -->
-              <div class="owl-item">
-                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Coupe.svg" alt=""></div>
-                  <div class="popular_category_text">Coupé</div>
-                </div>
-              </div>
-
-              <!-- Popular Categories Item -->
-              <div class="owl-item">
-                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Cabriolet.svg" alt=""></div>
-                  <div class="popular_category_text">Cabriolet</div>
-                </div>
-              </div>
-
-              <!-- Popular Categories Item -->
-              <div class="owl-item">
-                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/SUV.svg" alt=""></div>
-                  <div class="popular_category_text">SUV</div>
-                </div>
-              </div>
-
-              <!-- Popular Categories Item -->
-              <div class="owl-item">
-                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Berline.svg" alt=""></div>
-                  <div class="popular_category_text">Berline</div>
-                </div>
-              </div>
-
-              <!-- Popular Categories Item -->
-              <div class="owl-item">
-                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Break.svg" alt=""></div>
-                  <div class="popular_category_text">Break</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Banner -->
 
@@ -360,10 +292,77 @@
     </div>
   </div>
 
-  <!-- Hot New Arrivals -->
+  <!-- Popular Categories -->
+
+  <div class="popular_categories">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="popular_categories_content">
+            <div class="popular_categories_title">Nos types de véhicules</div>
+            <div class="popular_categories_slider_nav">
+              <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
+              <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
+            </div>
+            <div class="popular_categories_link"><a href="shop.php">Voir tout le catalogue</a></div>
+          </div>
+        </div>
+        
+        <!-- Popular Categories Slider -->
+
+        <div class="col-lg-9">
+          <div class="popular_categories_slider_container">
+            <div class="owl-carousel owl-theme popular_categories_slider">
+
+              <!-- Popular Categories Item -->
+              <div class="owl-item">
+                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Coupe.svg" alt=""></div>
+                  <div class="popular_category_text">Coupé</div>
+                </div>
+              </div>
+
+              <!-- Popular Categories Item -->
+              <div class="owl-item">
+                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Cabriolet.svg" alt=""></div>
+                  <div class="popular_category_text">Cabriolet</div>
+                </div>
+              </div>
+
+              <!-- Popular Categories Item -->
+              <div class="owl-item">
+                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/SUV.svg" alt=""></div>
+                  <div class="popular_category_text">SUV</div>
+                </div>
+              </div>
+
+              <!-- Popular Categories Item -->
+              <div class="owl-item">
+                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Berline.svg" alt=""></div>
+                  <div class="popular_category_text">Berline</div>
+                </div>
+              </div>
+
+              <!-- Popular Categories Item -->
+              <div class="owl-item">
+                <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                  <div class="popular_category_image"><img src="http://www.autoccasions.ch/img/carrosserie/Break.svg" alt=""></div>
+                  <div class="popular_category_text">Break</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-  
+
 
   <!-- Trends -->
 
@@ -476,14 +475,16 @@
 
             <div class="owl-carousel owl-theme brands_slider">
               
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_1.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_2.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_3.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_4.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_5.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_6.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_7.jpg" alt=""></div></div>
-              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/brands_8.jpg" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/kia.png" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/audi.jpg" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/citroen.png" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/bentley.jpg" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/ford.png" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/peugeot.jpg" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/renault.png" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/vw.jpg" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/ferrari.png" alt=""></div></div>
+              <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="assets/images/marques/chevrolet.jpg" alt=""></div></div>
 
             </div>
             

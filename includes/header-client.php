@@ -176,7 +176,6 @@
                         <a href="Location.php">Mes locations<i class="fas fa-chevron-down"></i></a>
                       </li>
                       <li><a href="reservation.php">Mes réservations<i class="fas fa-chevron-down"></i></a></li>
-                      
                     </ul>
                   </li>
                   <li>

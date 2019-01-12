@@ -19,7 +19,7 @@
                     </div>
                     <div class="cart_item_name cart_info_col">
                       <div class="cart_item_title">Début</div>
-                      <div class="cart_item_text">MacBook Air 13</div>
+                      <div class="cart_item_text">01/01/2019</div>
                     </div>
                     <div class="cart_item_color cart_info_col">
                       <div class="cart_item_title">Fin</div>
@@ -27,15 +27,15 @@
                     </div>
                     <div class="cart_item_quantity cart_info_col">
                       <div class="cart_item_title">Agence</div>
-                      <div class="cart_item_text">1</div>
+                      <div class="cart_item_text">Bamby Ndiaye I/E</div>
                     </div>
                     <div class="cart_item_price cart_info_col">
                       <div class="cart_item_title">Voiture</div>
-                      <div class="cart_item_text">Caracteres</div>
+                      <div class="cart_item_text">Citroen C3</div>
                     </div>
                     <div class="cart_item_total cart_info_col">
                       <div class="cart_item_title">Jours</div>
-                      <div class="cart_item_text">$2000</div>
+                      <div class="cart_item_text">20</div>
                     </div>
                     <div class="cart_item_total cart_info_col">
                       <div class="cart_item_title">Prix</div>
@@ -63,29 +63,7 @@
     </div>
   </div>
 
-  <!-- Newsletter -->
 
-  <div class="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
-            <div class="newsletter_title_container">
-              <div class="newsletter_icon"><img src="images/send.png" alt=""></div>
-              <div class="newsletter_title">Sign up for Newsletter</div>
-              <div class="newsletter_text"><p>...and receive %20 coupon for first shopping.</p></div>
-            </div>
-            <div class="newsletter_content clearfix">
-              <form action="#" class="newsletter_form">
-                <input type="email" class="newsletter_input" required="required" placeholder="Enter your email address">
-                <button class="newsletter_button">Subscribe</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Footer -->
 <?php include 'includes/footer-client.php'; ?>

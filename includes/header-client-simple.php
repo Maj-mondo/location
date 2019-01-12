@@ -183,12 +183,11 @@
                     <li class="hassubs">
                     <a href="#">Mes transactions<i class="fas fa-chevron-down"></i></a>
                     <ul>
-                      <li>
-                        <a href="Location.php">Locations<i class="fas fa-chevron-down"></i></a>
-                      </li>
-                      <li><a href="reservation.php">Réservations<i class="fas fa-chevron-down"></i></a></li>
                       <li><a href="achat.php">Acheter un vehicule<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="vente.php">Vendre un vehicule<i class="fas fa-chevron-down"></i></a></li>
+                      <li>
+                        <a href="Location.php">Mes locations<i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li><a href="reservation.php">Mes réservations<i class="fas fa-chevron-down"></i></a></li>
                     </ul>
                   </li>
                   <li>

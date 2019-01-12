@@ -66,13 +66,10 @@
                           <td></td>
                           <td>
                             <a href="profile.php" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> </a>
-                            <a href="modify-agent.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> </a>
+                            <a href="admin.modify-client.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> </a>
                             <a href="delete.php" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></a>
                           </td>
                         </tr>
-                        
-                        
-                        
                       </tbody>
                     </table>
                   </div>
