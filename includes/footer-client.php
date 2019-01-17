@@ -34,44 +34,34 @@
 
         <div class="col-lg-2 offset-lg-2">
           <div class="footer_column">
-            <div class="footer_title">Find it Fast</div>
+            <div class="footer_title">Transactions</div>
             <ul class="footer_list">
-              <li><a href="#">Computers & Laptops</a></li>
-              <li><a href="#">Cameras & Photos</a></li>
-              <li><a href="#">Hardware</a></li>
-              <li><a href="#">Smartphones & Tablets</a></li>
-              <li><a href="#">TV & Audio</a></li>
+              <li><a href="reservation.php">Réservations</a></li>
+              <li><a href="location.php">Locations</a></li>
+              <li><a href="achat.php">Achats</a></li>
+              <li><a href="vente.php">Ventes</a></li>
             </ul>
-            <div class="footer_subtitle">Gadgets</div>
-            <ul class="footer_list">
-              <li><a href="#">Car Electronics</a></li>
-            </ul>
-          </div>
+            </div>
         </div>
 
         <div class="col-lg-2">
           <div class="footer_column">
+            <div class="footer_subtitle">Nos Agences</div>              
             <ul class="footer_list footer_list_2">
-              <li><a href="#">Video Games & Consoles</a></li>
-              <li><a href="#">Accessories</a></li>
-              <li><a href="#">Cameras & Photos</a></li>
-              <li><a href="#">Hardware</a></li>
-              <li><a href="#">Computers & Laptops</a></li>
+              <li><a href="agences.php">Liste de nos agences</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>
 
         <div class="col-lg-2">
           <div class="footer_column">
-            <div class="footer_title">Customer Care</div>
+            <div class="footer_title">Nos véhicules</div>
             <ul class="footer_list">
-              <li><a href="#">My Account</a></li>
-              <li><a href="#">Order Tracking</a></li>
-              <li><a href="#">Wish List</a></li>
-              <li><a href="#">Customer Services</a></li>
-              <li><a href="#">Returns / Exchange</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Product Support</a></li>
+              <li><a href="véhicules.php">Catalogue</a></li>
+              <li><a href="blog-cli.php">Blog</a></li>
+              <li><a href="messages.php">Messages</a></li>
+              <li><a href="tarifs.php">Tarfs</a></li>
             </ul>
           </div>
         </div>

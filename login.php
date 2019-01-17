@@ -45,7 +45,9 @@ if (!empty($_POST)) {
 <div id="back">
   <div class="backRight"></div>
   <div class="backLeft"></div>
-div>
+</div>
+<br>
+<br>
 <div id="slideBox">
   <div class="topLayer">
     <div class="right">

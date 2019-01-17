@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" href="assets/images/favicon.ico" type="image/ico" />
+	  <link rel="icon" href="assets/images/favicon.ico" type="image/ico" />
 
     <title>Admin | Car-Car</title>
 
@@ -21,20 +21,19 @@
     <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
-	
     <!-- bootstrap-progressbar -->
     <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- JQVMap -->
     <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
     <!-- bootstrap-daterangepicker -->
     <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
-
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
-</script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/
-jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/
+    jquery.min.js"></script>
   </head>
 
   <body class="nav-md">
@@ -202,7 +201,7 @@ jquery.min.js"></script>
                     <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                       <li>
                         <a>
-                          <span class="image"><img src="assets/images/img.jpg" alt="Profile Image" /></span>
+                          <span class="image"><img src="assets/images/img.png" alt="Profile Image" /></span>
                           <span>
                             <span>John Smith</span>
                             <span class="time">3 mins ago</span>
@@ -214,7 +213,7 @@ jquery.min.js"></script>
                       </li>
                       <li>
                         <a>
-                          <span class="image"><img src="assets/images/img.jpg" alt="Profile Image" /></span>
+                          <span class="image"><img src="assets/images/img.png" alt="Profile Image" /></span>
                           <span>
                             <span>John Smith</span>
                             <span class="time">3 mins ago</span>
@@ -226,7 +225,7 @@ jquery.min.js"></script>
                       </li>
                       <li>
                         <a>
-                          <span class="image"><img src="assets/images/img.jpg" alt="Profile Image" /></span>
+                          <span class="image"><img src="assets/images/img.png" alt="Profile Image" /></span>
                           <span>
                             <span>John Smith</span>
                             <span class="time">3 mins ago</span>
@@ -238,7 +237,7 @@ jquery.min.js"></script>
                       </li>
                       <li>
                         <a>
-                          <span class="image"><img src="assets/images/img.jpg" alt="Profile Image" /></span>
+                          <span class="image"><img src="assets/images/img.png" alt="Profile Image" /></span>
                           <span>
                             <span>John Smith</span>
                             <span class="time">3 mins ago</span>
