@@ -1,5 +1,5 @@
-<?php require_once 'includes/functions.php'; ?>
-<?php require_once 'PHPMailerAutoload.php'; ?>
+<?php require_once '../includes/functions.php'; ?>
+<?php require_once '../PHPMailerAutoload.php'; ?>
 <?php
 // do processing only if data sent
 if (!empty($_POST)) {
@@ -23,7 +23,7 @@ if (!empty($_POST)) {
   
   // persist data if correct
   if (empty($errors)) {
-    require_once 'conn.php';
+    require_once '../db/conn.php';
     $req = $pdo->prepare("INSERT INTO clients (phone_number, email, password) VALUES (:phone_number, :email, :password)");
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
     $req->execute([
@@ -50,7 +50,7 @@ if (!empty($_POST)) {
       die("Erreur lors de l'envoi du mail");
     } else {
       $message = "Vous allez recevoir un email de confirmation de compte.";
-      header('location: login.php');
+      header('location: /user/login.php');
     }
     die();
   }
@@ -58,7 +58,7 @@ if (!empty($_POST)) {
 ?>
 
 
-<?php include 'includes/header-register.php'; ?>
+<?php include '../includes/header-register.php'; ?>
 
 <div class="w3-display-container">
   <?php if (!empty($errors)) : ?>
@@ -167,4 +167,4 @@ if (!empty($_POST)) {
       </section>
 
 <!-- Start Footer -->
-<?php include 'includes/footer-site.php'; ?>
+<?php include '../includes/footer-site.php'; ?>

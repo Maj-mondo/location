@@ -12,7 +12,7 @@ if (!empty($_POST)) {
   
   // login if correct data
   if (empty($errors)) {
-    require_once 'conn.php';
+    require_once '../db/conn.php';
     $req = $pdo->prepare("SELECT * FROM clients WHERE email=:email");
     $req->execute([
       "email" => $_POST['email']

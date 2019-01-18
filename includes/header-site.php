@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Acceuil | Car-Car</title>
+    <title>Accueil | Car-Car</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>  
+    <link rel="shortcut icon" type="image/icon" href="/assets/images/favicon.ico"/>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
     <!-- Font Awesome -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
     <!-- Slick slider -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="/assets/css/slick.css"/>
     <!-- Fancybox slider -->
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="/assets/css/jquery.fancybox.css" type="text/css" media="screen" />
     <!-- Animate css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
-    <link rel="stylesheet" type="text/css" href="assets/css/v3-homepage.css"/>  
-    <link rel="stylesheet" type="text/css" href="assets/css/btn.css"/>  
-    <link rel="stylesheet" type="text/css" href="assets/css/reservation-area.css"/>  
+    <link rel="stylesheet" type="text/css" href="/assets/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/v3-homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/btn.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/reservation-area.css"/>
      <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/pink-theme.css" rel="stylesheet">
+    <link id="switcher" href="/assets/css/theme-color/pink-theme.css" rel="stylesheet">
     <!-- <link href="preloader.css" rel="stylesheet"> -->
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Datetime-Picker -->
-    <link rel="stylesheet" type="text/css" href="assets/css/datetime-picker.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/datetime-picker.js">
+    <link rel="stylesheet" type="text/css" href="/assets/css/datetime-picker.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/datetime-picker.js">
      <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
     <!-- Fonts -->
     <!-- Open Sans for body font -->
@@ -83,71 +83,5 @@
       vertical-align: middle;
     }
   </style>
-  <body background-color="#22313f">
-    
-
-  <!-- SCROLL TOP BUTTON -->
+  <body style="background-color: #22313f">
     <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
-  <!-- END SCROLL TOP BUTTON -->
-
-  <!-- Start header section -->  
-  <header id="header">
-    <div class="header-inner">
-      <!-- Header image -->
-      <img src="assets/images/icy_aston.jpg" alt="img">
-      <div class="header-overlay">
-        <div class="header-content">
-        <!-- Start header content slider -->
-        <h2 class="header-slide">CAR-CAR
-          <span>LOCATION</span>
-          <span>DE VEHICULE</span>
-          <span>A BAS PRIX</span>
-          AU SENEGAL</h2>
-        <!-- End header content slider -->  
-        <!-- Header btn area -->
-        <div class="header-btn-area">
-          <a class="knowmore-btn" href="login.php">CONNEXION</a>
-          <a class="download-btn" href="register.php">INSCRIPTION</a>
-        </div>
-      </div>
-      </div>      
-    </div>
-  </header>
-  <!-- End header section -->
-
-  <!-- Start menu section -->
-  <section id="menu-area">
-    <nav class="navbar navbar-default main-navbar" role="navigation">  
-      <div class="container">
-        <div class="navbar-header">
-          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- LOGO -->                                               
-           <a class="navbar-brand logo" href="index.php"><img src="assets/images/logo.png" alt="logo"></a>                      
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
-            <li class="active"><a href="index.php" class="less-padding">HOME</a></li>
-            <li><a href="catalogue.php" class="less-padding">CATALOGUE</a></li> 
-            <li><a href="#client" class="less-padding">PARTENAIRES</a></li>             
-            <li><a href="blog.php" class="less-padding">BLOG</a></li>
-            <li><a href="log-agent.php" class="less-padding">ESPACE AGENCE</a></li>          
-            <li><a href="#contact" class="less-padding">CONTACT</a></li>         
-          </ul>                            
-        </div>
-        <!--/.nav-collapse -->
-       <div class="search-area">
-          <form action="">
-            <input id="search" name="search" type="text" placeholder="Je cherche ...">
-            <input id="search_submit" value="Rechercher" type="submit">
-          </form>
-        </div>         
-      </div>          
-    </nav> 
-  </section>
-  <!-- End menu section -->

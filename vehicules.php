@@ -1,5 +1,5 @@
 <?php
-  require_once("conn.php");
+  require_once("db/conn.php");
 ?>
 
 <?php include 'includes/header-client.php'; ?>
@@ -38,7 +38,7 @@
                 </a>
               </div>
             </div>
-          </nav>          
+          </nav>
           <div class="col-lg-6">Caractéristiques</div>
           <div class="col-lg-6">Photo</div>
           <hr>
