@@ -31,12 +31,12 @@
             <div class="flotte-content">
               <div class="container-fluid">
                 <div class="flotte-box-header">
-                  <a class="flotte-box-brand" href="login.php">
+                  <a class="flotte-box-brand" href="/user/login.php">
                     <h2 style="">Nom</h2>
                   </a>
                 </div>
               </div>
-              <div class="col-lg-6"> 
+              <div class="col-lg-6">
                 <br>
                 <h3>Caractristiques</h3>
                 <br>
@@ -59,7 +59,7 @@
                 <br>
                 <br>
                 <br>
-                <h4><strong>Prix</strong></h4> 
+                <h4><strong>Prix</strong></h4>
               </div>
               <div class="col-lg-6">
                 <h3>Photo</h3>
@@ -83,7 +83,7 @@
         </div>
         </div>
       </div>
-  </section> 
+  </section>
   <!-- End about section -->
 
 
@@ -99,18 +99,18 @@
         <div class="col-md-12">
           <div class="client-area">
             <ul class="client-table">
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/google.png" alt="client logo"></li>
-              <li><img src="assets/images/amazon.png" alt="client logo"></li>
-              <li><img src="assets/images/discovery.png" alt="client logo"></li>
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/tuenti.png" alt="client logo"></li>
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/google.png" alt="client logo"></li>
-              <li><img src="assets/images/amazon.png" alt="client logo"></li>
-              <li><img src="assets/images/discovery.png" alt="client logo"></li>
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/tuenti.png" alt="client logo"></li>                    
+              <li><img src="/assets/images/envato.png" alt="client logo"></li>
+              <li><img src="/assets/images/google.png" alt="client logo"></li>
+              <li><img src="/assets/images/amazon.png" alt="client logo"></li>
+              <li><img src="/assets/images/discovery.png" alt="client logo"></li>
+              <li><img src="/assets/images/envato.png" alt="client logo"></li>
+              <li><img src="/assets/images/tuenti.png" alt="client logo"></li>
+              <li><img src="/assets/images/envato.png" alt="client logo"></li>
+              <li><img src="/assets/images/google.png" alt="client logo"></li>
+              <li><img src="/assets/images/amazon.png" alt="client logo"></li>
+              <li><img src="/assets/images/discovery.png" alt="client logo"></li>
+              <li><img src="/assets/images/envato.png" alt="client logo"></li>
+              <li><img src="/assets/images/tuenti.png" alt="client logo"></li>
             </ul>
           </div>
         </div>
@@ -146,12 +146,12 @@
           <div class="contact-right wow fadeInRight">
             <h2>Envoyer un messagee</h2>
             <form action="" class="contact-form">
-              <div class="form-group">                
+              <div class="form-group">
                 <input type="text" class="form-control" placeholder="Entrer nom">
               </div>
-              <div class="form-group">                
+              <div class="form-group">
                 <input type="email" class="form-control" placeholder="Entrer e-mail">
-              </div>              
+              </div>
               <div class="form-group">
                 <textarea class="form-control"></textarea>
               </div>
@@ -166,5 +166,5 @@
   <!-- End Contact section -->
 
 
-  <!-- Start Footer -->    
+  <!-- Start Footer -->
 <?php include 'includes/footer-site.php'; ?>

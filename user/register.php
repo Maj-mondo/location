@@ -1,9 +1,9 @@
-<?php require_once '../includes/functions.php'; ?>
-<?php require_once '../PHPMailerAutoload.php'; ?>
 <?php
+session_start();
+require_once '../vendor/autoload.php';
+require_once '../PHPMailerAutoload.php';
 // do processing only if data sent
 if (!empty($_POST)) {
-  
   // validation error
   $errors = [];
   if (empty($_POST['phone_number']) || !preg_match("/[0-9]{9,13}/", $_POST['phone_number'])) {
@@ -12,7 +12,7 @@ if (!empty($_POST)) {
   if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
     $errors['email'] = "Email " . $_POST['email'] . " invalide";
   } else {
-    require_once "conn.php";
+    require_once "../db/conn.php";
     $req = $pdo->prepare('SELECT id FROM clients WHERE email = ?');
     $req->execute([$_POST['email']]);
     $user = $req->fetch();
@@ -51,8 +51,8 @@ if (!empty($_POST)) {
     } else {
       $message = "Vous allez recevoir un email de confirmation de compte.";
       header('location: /user/login.php');
+      die();
     }
-    die();
   }
 }
 ?>
@@ -75,7 +75,7 @@ if (!empty($_POST)) {
 
   <!-- Start banner section -->
   <section id="blog-banner">
-    <img src="assets/images/blog-banner.jpg" alt="img">
+    <img src="/assets/images/blog-banner.jpg" alt="img">
     <div class="blog-overlay">
       <div class="container">
         <div class="row">
@@ -83,7 +83,7 @@ if (!empty($_POST)) {
             <div class="blog-banner-area">
               <h2>Créer un compte client!</h2>
               <ol class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li class="active">Création de compte</li>
               </ol>
             </div>
@@ -106,10 +106,10 @@ if (!empty($_POST)) {
                   <article class="single-from-blog">
                     <div class="blog-title">
                       <h2>Remplir le formulaire</h2>
-                      <p>Notre plateforme répond à une politique de confidentialité <a href="login.php" class="blog-admin">Connecter</a> on <span class="blog-date">vous ensuite pour accéder à voter compte</span></p>
+                      <p>Notre plateforme répond à une politique de confidentialité <a href="/user/login.php" class="blog-admin">Connecter</a> on <span class="blog-date">vous ensuite pour accéder à voter compte</span></p>
                     </div>
                     <div style="width: 100px; margin: 0 auto;">
-                      <img src="assets/images/logo.png" alt="logo" width="85px" height="100px">
+                      <img src="/assets/images/logo.png" alt="logo" width="85px" height="100px">
                     </div>
                   </article>
                   <div class="blog-comment">

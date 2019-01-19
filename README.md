@@ -1,5 +1,6 @@
 # Location de véhicules
 
+
 Quand aux droits d’accès , il y a trois niveaux définis en fonction du statut de l’utilisateur.
 Les trois niveaux sont :
 Niveau 1 : Statut Administrateur, le plus élevé́ 
@@ -16,8 +17,6 @@ Il pourra également gérer le système et modifier les paramètres de celui- ci
 il n’aura pas accès à la gestion des autres gérants du système. 
 En ce qui concerne le client, il pourra consulter le catalogue,effectuer des transactions, ainsi que l’historique (les mouvements sur son compte). 
 
-
-
- 
-
+# TODO
+- contact form
 

@@ -13,7 +13,7 @@ try {
     $db_config['PASSWORD']);
   unset($db_config);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_BOTH);
+  $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 } catch (Exception $e) {
   trigger_error($e->getMessage(), E_USER_ERROR);
   die("Unable to connect to database" . $e->getMessage());

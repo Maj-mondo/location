@@ -1,5 +1,3 @@
-<?php include '../includes/header-site.php'; ?>
-
 <section id="menu-area">
   <nav class="navbar navbar-default main-navbar" role="navigation">
     <div class="container">
@@ -12,30 +10,47 @@
           <span class="icon-bar"></span>
         </button>
         <!-- LOGO -->
-        <a class="navbar-brand logo" href="index.php"><img src="/assets/images/logo.png" alt="logo"></a>
+        <a class="navbar-brand logo" href="/"><img src="/assets/images/logo.png" alt="logo"></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
-          <li class="active"><a href="/" class="less-padding">ACCUEIL</a></li>
-          <li><a href="/catalogue.php" class="less-padding">CATALOGUE</a></li>
-          <li><a href="/founisseur/index.php" class="less-padding">Founisseurs</a></li>
-          <li><a href="/vehicules.php" class="less-padding">Véhicules</a></li>
-        <!--  TODO: Only admin can see -->
+          <li><a href="/" class="less-padding">Accueil</a></li>
+          <li><a href="/catalogue.php" class="less-padding">Catalogue</a></li>
+          <li><a href="/fournisseur" class="less-padding">Founisseurs</a></li>
+          <li><a href="/car-model" class="less-padding">Modèles</a></li>
+          <li><a href="/car" class="less-padding">Véhicules</a></li>
+<!--          <li><a href="/vehicules.php" class="less-padding">Véhicules</a></li>-->
+          <!--  TODO: Only admin can see -->
+<!--
           <li><a href="#client" class="less-padding">Clients</a></li>
-          <li><a href="blog.php" class="less-padding">BLOG</a></li>
           <li><a href="log-agent.php" class="less-padding">ESPACE AGENCE</a></li>
           <li><a href="#contact" class="less-padding">CONTACT</a></li>
+          -->
         </ul>
       </div>
-      <!--/.nav-collapse -->
+      <!--/.nav-collapse
       <div class="search-area">
         <form action="">
           <input id="search" name="search" type="text" placeholder="Je cherche ...">
           <input id="search_submit" value="Rechercher" type="submit">
         </form>
       </div>
+      -->
     </div>
   </nav>
 </section>
-<?php
-echo "fournisseur index";
+
+
+<div class="container">
+  <div id="flash-container">
+    <?php require_once '../vendor/autoload.php';?>
+    <?php if (isset($_SESSION['flash'])): ?>
+      <?php foreach ($_SESSION['flash'] as $type => $messages): ?>
+        <?php foreach ($messages as $message): ?>
+          <div class="alert alert-<?= $type ?>"><?= $message ?></div>
+        <?php endforeach; ?>
+      <?php endforeach; ?>
+    <?php unset($_SESSION['flash']); ?>
+    <?php endif; ?>
+  </div>
+</div>

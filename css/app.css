@@ -1,5 +1,6 @@
 html, body {
     background-color: #e7e7e7;
+    color: #424242;
     margin: 0;
     padding: 0;
 }
@@ -19,4 +20,49 @@ html, body {
 
 .form-group.has-error input {
     border: 1px solid tomato;
+}
+
+.app-content {
+    padding: 5px 10px;
+}
+
+.app-header {
+    color: #333;
+}
+
+.app-board {
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.app-link {
+    color: #e12347;
+    text-decoration: none;
+    transition: all .3s;
+}
+.app-link:hover {
+    color: #333;
+    text-decoration: #ff2851;
+}
+
+.app-link-icon {
+    padding: 2px 5px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #333;
+}
+
+#menu-area::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.w3-display-container {
+    padding-top: 100px;
+}
+
+h1, h2, h3, h4,h5,h6 {
+    color: #333;
 }
