@@ -55,11 +55,11 @@ require "../includes/header-site.php";
           <input type="text" class="form-control" id="cni" name="cni" value="<?= get_data('cni') ?>"/>
         </div>
         <div class="form-group">
-          <label for="phone">Phone</label>
+          <label for="phone">Téléphone</label>
           <input type="text" class="form-control" id="phone" name="phone" value="<?= get_data('phone') ?>"/>
         </div>
         <div class="form-group">
-          <label for="address">Address</label>
+          <label for="address">Adresse</label>
           <textarea class="form-control" id="address" name="address"><?= get_data('address') ?>"</textarea>
         </div>
         <button class="btn btn-outline-primary" type="submit">Ajouter</button>

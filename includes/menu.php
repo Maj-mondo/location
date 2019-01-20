@@ -19,6 +19,8 @@
           <li><a href="/fournisseur" class="less-padding">Founisseurs</a></li>
           <li><a href="/car-model" class="less-padding">Modèles</a></li>
           <li><a href="/car" class="less-padding">Véhicules</a></li>
+          <li><a href="/client" class="less-padding">Clients</a></li>
+          <li><a href="/agence" class="less-padding">Agences</a></li>
 <!--          <li><a href="/vehicules.php" class="less-padding">Véhicules</a></li>-->
           <!--  TODO: Only admin can see -->
 <!--
