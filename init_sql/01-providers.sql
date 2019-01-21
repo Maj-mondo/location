@@ -5,5 +5,5 @@ CREATE TABLE `providers` (
   `city` VARCHAR(45) NULL,
   `postal_code` VARCHAR(45) NULL,
   `cni` VARCHAR(255),
-  `phone` VARCHAR(20) NULL,
+  `phone` VARCHAR(255) NULL,
   CONSTRAINT `pk_providers` PRIMARY KEY (`id`));

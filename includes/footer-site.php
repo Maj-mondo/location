@@ -1,6 +1,6 @@
 </div>
   <footer id="footer">
-    <div class="footer-top">
+    <div class="footer-top w3-container">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

@@ -21,6 +21,11 @@
           <li><a href="/car" class="less-padding">Véhicules</a></li>
           <li><a href="/client" class="less-padding">Clients</a></li>
           <li><a href="/agence" class="less-padding">Agences</a></li>
+          <li><a href="/chauffeur" class="less-padding">Chauffeurs</a></li>
+          <li><a href="/mecanicien" class="less-padding">Mecanicien</a></li>
+          <li><a href="/transaction" class="less-padding">Transactions</a></li>
+          <li><a href="/paiement" class="less-padding">Paiement</a></li>
+          <li><a href="/facture" class="less-padding">facture</a></li>
 <!--          <li><a href="/vehicules.php" class="less-padding">Véhicules</a></li>-->
           <!--  TODO: Only admin can see -->
 <!--
@@ -45,7 +50,6 @@
 
 <div class="container">
   <div id="flash-container">
-    <?php require_once '../vendor/autoload.php';?>
     <?php if (isset($_SESSION['flash'])): ?>
       <?php foreach ($_SESSION['flash'] as $type => $messages): ?>
         <?php foreach ($messages as $message): ?>

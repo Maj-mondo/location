@@ -9,3 +9,6 @@ for ($i = 0; $i < 15; $i++) {
     'name' => $faker->company
   ]);
 }
+    header('location: /car-model');
+    die();
+

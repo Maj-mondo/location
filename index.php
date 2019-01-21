@@ -1,11 +1,11 @@
-<?php include 'includes/header-site.php'; ?>
+<?php include 'includes/menu-less-header-site.php'; ?>
 
 <header id="header">
   <div class="header-inner">
     <!-- Header image -->
     <img src="/assets/images/icy_aston.jpg" alt="img">
     <div class="header-overlay">
-      <div class="header-content">
+      <div class="header-content" style="color: #fff">
         <!-- Start header content slider -->
         <h2 class="header-slide">CAR-CAR
           <span>LOCATION</span>
