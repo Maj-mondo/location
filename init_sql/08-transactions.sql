@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `transactions` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `transac_type` VARCHAR(255) NOT NULL,
+  `transaction_type` VARCHAR(255) NOT NULL,
   `start` date  NULL,
   `end` date  NULL,
   `idClient` INT NOT NULL,
@@ -24,5 +24,4 @@ CREATE TABLE IF NOT EXISTS `transactions` (
   CONSTRAINT `fk_transactions_tarif` FOREIGN KEY (`idTarif`) REFERENCES `tarifs` (`id`)
     ON DELETE CASCADE
     ON UPDATE CASCADE
-)
-ENGINE = InnoDB;
+);

@@ -5,9 +5,8 @@ CREATE TABLE IF NOT EXISTS `agencies` (
   `postal_code` VARCHAR(45) NULL,
   `opening`  time  NULL default '07:00',
   `closing` time  NULL default '20:00',
-  `working_day` TEXT(100) NULL,
+  `working_days` VARCHAR(100) NULL,
   `city` VARCHAR(45) NULL,
   `phone` INT NULL,
-  CONSTRAINT `pk_agencies` PRIMARY KEY (`id`))
-
-ENGINE = InnoDB;
+  CONSTRAINT `pk_agencies` PRIMARY KEY (`id`)
+);

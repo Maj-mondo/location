@@ -12,7 +12,7 @@ if (!empty($_POST)) {
   if (!$validator->fails()) {
     require_once '../db/conn.php';
     $req = $pdo->prepare("INSERT INTO agencies (name, postal_code, address, opening, closing, working_day, city, phone)
-    VALUES (:name, :postal_code, :address, :opening, :closing, :$working_day, :city, :phone)");
+    VALUES (:name, :postal_code, :address, :opening, :closing, :working_day, :city, :phone)");
     $req->execute([
       "name" => $_POST['name'],
       "postal_code" => $_POST['postal_code'],
@@ -20,17 +20,18 @@ if (!empty($_POST)) {
       "phone" => $_POST['phone'],
       "opening" => $_POST['opening'],
       "closing" => $_POST['closing'],
-      "working_day" => $_POST['working_day'],
+      "working_day" => implode(',', $_POST['working_day']),
       "city" => $_POST['city']
     ]);
     success('Agence ajouté.');
-    header('location: /agence/index.php');
+    header('location: /agence');
     die();
   } else {
     $errors = $validator->getErrors();
     error($errors[array_keys($errors)[0]][0]);
   }
 }
+$days = isset($_POST['working_day']) ? explode(',', $_POST['working_day']) : ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
 
 require "../includes/header-site.php";
 ?>
@@ -77,13 +78,9 @@ require "../includes/header-site.php";
           <div class="form-group">
             <label for="working_day">Jours de travail</label>
             <div class="col-md-6">
-              <input type="checkbox"  name="working_day[]" value="Lundi" checked> Lundi
-              <input type="checkbox"  name="working_day[]" value="Mardi" checked> Mardi
-              <input type="checkbox"  name="working_day[]" value="Mercredi" checked> Mercredi
-              <input type="checkbox"  name="working_day[]" value="Jeudi" checked> Jeudi
-              <input type="checkbox"  name="working_day[]" value="Vendredi" checked> Vendredi
-              <input type="checkbox"  name="working_day[]" value="Samedi"> Samedi
-              <input type="checkbox"  name="working_day[]" value="Dimanche"> Dimanche
+              <?php foreach($days as $day):  ?>
+              <input type="checkbox"  name="working_day[]" value="<?= $day ?>" <?= in_array($day , $days) ? 'checked' : '' ?>> <?= $day ?>
+              <?php endforeach; ?>
             </div>
             </div>
         </div>
