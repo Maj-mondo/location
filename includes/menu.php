@@ -22,7 +22,7 @@
           <li><a href="/client" class="less-padding">Clients</a></li>
           <li><a href="/agence" class="less-padding">Agences</a></li>
           <li><a href="/chauffeur" class="less-padding">Chauffeurs</a></li>
-          <li><a href="/mecanicien" class="less-padding">Mecanicien</a></li>
+          <li><a href="/mecanicien" class="less-padding">Mecaniciens</a></li>
           <li><a href="/transaction" class="less-padding">Transactions</a></li>
           <li><a href="/paiement" class="less-padding">Paiement</a></li>
           <li><a href="/facture" class="less-padding">facture</a></li>
@@ -34,6 +34,7 @@
           <li><a href="#contact" class="less-padding">CONTACT</a></li>
           -->
         </ul>
+        
       </div>
       <!--/.nav-collapse
       <div class="search-area">

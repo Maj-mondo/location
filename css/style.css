@@ -1473,7 +1473,7 @@ img{
 /*--------------------*/
 
 #contact {
-	background-image: url("assets/images/contact-bg.jpg");
+	background-image: url("/assets/images/contact-bg.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;

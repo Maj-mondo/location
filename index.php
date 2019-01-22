@@ -28,20 +28,9 @@
 
   <?php include 'includes/about.php'; ?>
 
-  <section id="call-to-action">
-    <img src="/assets/images/call-to-action-bg.png" alt="img">
-    <div class="call-to-overlay">
-      <div class="container">
-        <div class="call-to-content wow fadeInUp">
-          <h2>Nous mettons à votre disposition un <span color="#ff2851">Chauffeur</span>  professionel</h2>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <?php include 'includes/teams.php'; ?>
-  <?php include 'includes/services.php'; ?>
   <?php include 'includes/testimonials.php'; ?>
+  <?php include 'includes/services.php'; ?>
   <?php include 'includes/counter.php'; ?>
   <?php include 'includes/partners.php'; ?>
   <?php include 'includes/contact.php'; ?>
